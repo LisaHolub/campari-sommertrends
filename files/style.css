@@ -78,6 +78,7 @@ h3 {
 .shop-img {
   position: absolute;
   z-index: -1;
+  height: 420px;
 }
 /* Logo-Bereich ENDE */
 
