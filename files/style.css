@@ -1,0 +1,353 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Gorditas', cursive;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #91947f;
+}
+
+h2 {
+  font-family: 'Clicker Script', cursive;
+  color: #fff;
+  font-size: 45px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Gorditas', cursive;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+.grey-bg {
+  background-color: #e3d9d7;
+}
+
+/* Navigation START */
+.navbar {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.navbar.navbar-default {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar.navbar-default .navbar-collapse {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.nav-logo {
+  width: 40px;
+  margin-top: -10px;;
+}
+
+/* Navigation ENDE */
+
+/* Logo-Bereich START */
+.logo {
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+}
+
+.shop-img {
+  position: absolute;
+  z-index: -1;
+}
+/* Logo-Bereich ENDE */
+
+
+/* Willkommen-Bereich START */
+.welcome-box {
+  background-color: #c9d1d4;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.weisser-text {
+  margin-left: 250px;
+  margin-right: 250px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+/* Willkommen-Bereich ENDE */
+
+/* Übersicht-Bereich START */
+.uebersicht-box {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  background: #e3d9d7;
+  color: #91947f;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  position: absolute;
+  width: 180px;
+  top: 25%;
+  left: 20%
+}
+
+.gallery {
+  z-index: -1;
+}
+
+.btn:hover {
+  background: #c9d1d4;
+  text-decoration: none;
+}
+/* Übersicht-Bereich ENDE */
+
+/* Instagram-Bereich START */
+.insta-btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  background: #c59893;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  text-decoration: none;
+  width: 280px;
+  cursor: pointer;
+}
+
+.insta-btn:hover {
+  background: #e3d9d7;
+  color: #91947f;
+  text-decoration: none;
+}
+
+.hashtags {
+  font-size: 12px;
+}
+
+.account {
+  font-size: 14px;
+  font-weight: bold;
+}
+/* Instagram-Bereich ENDE */
+
+/* Footer START */
+.footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #91947f;
+}
+
+.block-contact-inline{
+  text-align: center;
+}
+
+.footer-icons {
+  width: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/* Footer ENDE */
+
+/* About-Bereich START */
+.about-box {
+  background-color: #fff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.about-text {
+  margin-left: 250px;
+  margin-right: 250px;
+  text-align: center;
+  color: #000;
+  font-size: 15px;
+}
+
+.about-h {
+  color: #000;
+}
+/* About-Bereich ENDE */
+
+/* Saisonales-Bereich START */
+.desserts {
+  color: #c59893;
+  font-size: 35px;
+}
+
+.saisonales {
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Saisonales-Bereich ENDE */
+
+/* Bestellen-Bereich START */
+.appointment {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+.input-appointment {
+  width: 300px;
+  height: 30px;
+  font-family: Arial;
+  padding-left: 5px;
+  margin-top: 10px;
+}
+
+.input-appointment-big {
+  width: 300px;
+  height: 100px;
+  font-family: Arial;
+  display: block;
+  padding-left: 5px;
+  margin-top: 10px;
+}
+
+.agree-checkbox {
+  margin-top: 10px;
+}
+
+.agree-span {
+  font-family: Arial;
+  font-size: 11px;
+}
+/* Bestellen-Bereich ENDE */
+
+/* Kontakt-Bereich START */
+.kontakt-table {
+  max-width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.open-sign {
+  margin-bottom: -200px;
+}
+/* Kontakt-Bereich ENDE */
+
+/* Responsive-Bereich START */
+@media screen and (max-width: 1200px) {
+  .btn {
+    top: 25%;
+    left: 12%
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .btn {
+    top: 35%;
+    left: 25%
+  }
+  .weisser-text {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .about-text {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .btn {
+    top: 45%;
+    left: 35%;
+    width: 250px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 638px) {
+  .btn {
+    left: 30%;
+}
+
+@media screen and (max-width: 500px) {
+  .btn {
+    left: 25%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .btn {
+    left: 20%;
+  }
+  .saisonales {
+    width: 300px;
+  }
+  .open-sign {
+    display: none;
+  }
+  .kontakt-table {
+    margin-left: 25%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .btn {
+    left: 12%;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  .footer-icons {
+    width: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .kontakt-table {
+    margin-left: 15%;
+  }
+  .navbar-brand {
+    font-size: 12px;
+  }
+}
+/* Responsive-Bereich ENDE */
