@@ -72,10 +72,11 @@ h3 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -340px;
+  margin-top: 90px;
 }
 
 .shop-img {
+  position: absolute;
   z-index: -1;
 }
 /* Logo-Bereich ENDE */
